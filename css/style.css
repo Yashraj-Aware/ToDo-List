@@ -1,0 +1,154 @@
+
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#CCCCFF;
+    font-family: "Space Grotesk bold";
+    font-size: 20px ;
+}
+
+
+
+
+
+/*here the hright has been not specified ad other occuring divs height will be specified*/
+.container{
+    width: 25vw;
+    margin: 10px;
+    
+}
+.header{
+    width: 25vw;
+    height:200px;
+    background-color: white;
+    background-image: url('../img/bg4.jpg');
+    background-size:100% ;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    position: relative;
+}
+/*here the overflow concept is used --> it is similiar to that of scroll and adds a scroll bar
+if not used the div will continuously expand */
+.content{
+    width:25vw;
+    height: 350px;
+    max-height:350px;
+    background-color: white;
+    overflow: auto;
+}
+
+
+
+
+
+.progress-bar{
+    padding: 10px;
+
+}
+.width{
+    height: 20px;
+    width: 340px;
+    border: #4162f6 solid;
+    background-color:transparent;
+    border-radius: 10px;
+    margin: 2%;
+}
+.color-width{
+    height: 20px;
+    width: 0;
+    background-color:rgb(193, 173, 173);
+    border-radius: 10px;
+    transition:1s ease 0.3s;
+}
+.bar-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+#date{
+    position: relative;
+    bottom: 1px;
+    left: 10px;
+    color: #ebf0ee;
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item{
+    width:380px;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    background-color:white;
+    border-top:1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.text{
+    position: relative;
+    top:10px;
+    left: 30px
+}
+.chk{
+    position:relative;
+    top:10px;
+    left: 5px;
+}
+.fa-check-circle{
+    color:green;
+}
+.lineThrough{
+    text-decoration: line-through;
+    color: rgb(168, 167, 167);
+}
+.trash{
+    position:relative;
+    top:15px;
+    color:red;
+    float: right;
+}
+
+
+
+
+
+.add-to-do{
+    position: relative;
+ 
+    height:40px;
+    background-color: white;
+    padding: 10px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.sharp{
+
+    color: #4162f6;
+    float: left;
+    position: absolute;
+    left: 0.5px;
+}
+.add-to-do input{
+    position: absolute;
+    left: 50px;
+    height: 35px;
+    width: 310px;
+    border: 1px solid #4162f6;
+    font-size: 20px;
+    padding-left:10px;
+}
