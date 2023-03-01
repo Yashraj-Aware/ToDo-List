@@ -9,4 +9,4 @@
  
  # Future Ideas:
  * To add an interesying interface which would keep the user active whenever the tasks are assigned.
- * Remainder , and various mini features to be added in upcoming versions.
+ * Reminder , and various mini features to be added in upcoming versions.
